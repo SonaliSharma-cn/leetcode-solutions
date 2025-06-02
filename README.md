@@ -1,5 +1,5 @@
 # leetcode-solutions
-My DSA solutions and daily development progress for Harshita Verma's 15-Day DSA + Development Challenge 🚀
+My DSA solutions and daily development progress for Harshita Verma's 15-Day DSA + Development Challenge 🚀 which is given by an amazing person @harshita verma
 
 🚀 This repository contains my daily DSA solutions and development projects as part of Harshita Verma's 15-Day DSA + Development Challenge.
 
