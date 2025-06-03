@@ -14,11 +14,11 @@ class Solution:
                     if n == 0:
                         return True
         return n == 0
-flowerbed_input = input("Enter flowerbed as 0s and 1s : ")
-flowerbed = list(map(int, flowerbed_input.strip().split()))
+flowerbed_input = input("Enter flowerbed as 0s and 1s : ")            #1 0 0 0 1
+flowerbed = list(map(int, flowerbed_input.strip().split()))             #1
 n = int(input("Enter number of flowers to plant: "))
 
 sol = Solution()
 result = sol.canPlaceFlowers(flowerbed, n)
 
-print("Can place flowers?" , result)
+print("Can place flowers?" , result)                         #True
