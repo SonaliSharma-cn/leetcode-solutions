@@ -23,9 +23,6 @@ class Solution:
 
         return False
 
-# ------------------------------
-# 👇 User Input Section 👇
-# ------------------------------
 if __name__ == "__main__":
     nums = list(map(int, input("Enter space-separated distinct positive integers (nums): ").split()))
     target = int(input("Enter target product: "))
