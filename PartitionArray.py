@@ -24,10 +24,10 @@ class Solution:
         return False
 
 if __name__ == "__main__":
-    nums = list(map(int, input("Enter space-separated distinct positive integers (nums): ").split()))
-    target = int(input("Enter target product: "))
+    nums = list(map(int, input("Enter space-separated distinct positive integers (nums): ").split()))             #3 1 6 8 4
+    target = int(input("Enter target product: "))                                                            #24
 
     sol = Solution()
     result = sol.checkEqualPartitions(nums, target)
 
-    print("Output:", result)
+    print("Output:", result)                                                                     #True
